@@ -126,9 +126,9 @@ Wire Wire Line
 Wire Wire Line
 	5250 1700 5000 1700
 Wire Wire Line
-	5000 1700 5000 1200
+	5000 1200 5000 1700
 Wire Wire Line
-	5000 1200 2250 1200
+	2250 1200 5000 1200
 Wire Wire Line
 	2250 1200 2250 3600
 Wire Wire Line
@@ -159,8 +159,6 @@ Wire Wire Line
 Wire Wire Line
 	2550 3850 3800 3850
 Connection ~ 2550 3800
-Wire Wire Line
-	2550 5300 3800 5300
 Wire Wire Line
 	2550 3800 2550 6800
 Wire Wire Line
@@ -232,4 +230,19 @@ Wire Wire Line
 	2700 4100 2250 4100
 Wire Wire Line
 	2700 2300 2700 4100
+Text Label 3250 1200 0    60   ~ 0
+VDD
+Text Label 2950 2900 0    60   ~ 0
+GND
+Text Label 3000 2200 0    60   ~ 0
+SCLK
+Text Label 2900 4150 0    60   ~ 0
+D0
+Text Label 2950 2300 0    60   ~ 0
+D1
+Text Label 2600 5300 0    60   ~ 0
+WS/WCLK
+Wire Wire Line
+	3800 5300 2550 5300
+Connection ~ 2550 5300
 $EndSCHEMATC
