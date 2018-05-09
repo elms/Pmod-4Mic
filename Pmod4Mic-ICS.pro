@@ -1,4 +1,4 @@
-update=Tuesday, May 08, 2018 'PMt' 11:14:17 PM
+update=Wednesday, May 09, 2018 'PMt' 01:26:51 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=/Users/elms/kicad/ICS-43432/ICS-43432
+LibName31=/Users/elms/kicad/pmod_01x06
